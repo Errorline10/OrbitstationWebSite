@@ -1,0 +1,185 @@
+  @font-face {
+    font-family: OpenDyslexic;
+    src: url("font/OpenDyslexic-Regular.woff");
+  }
+  
+  *{
+    padding: 0px;
+    margin: 0px;
+  }
+  
+  html {
+    height: 100%;
+  }
+  
+  .show{display:block;}
+  .hide{display:none;}
+  
+  body {
+    max-width: 1200px;
+    font-family: sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    margin: auto auto;
+  
+    font-weight: 400;
+    font-style: normal;
+    font-family: openDyslexic;
+  
+    /* background-color: #000038; */
+    background-color: lavender;
+    text-align: center;
+    /* background-image: url("images/Symbols.gif"); */
+    background-size: 20%;
+    height: 100%;
+  }
+  
+
+.header {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    border-bottom: 1px solid rgb(0, 0, 0);
+    width: 100%;
+    font-size: 2rem;
+    padding: 0px;
+    background-color: hsla(286, 50%, 34%, 0.887);
+    /* background-color: #bb7dee; */
+    z-index:0;
+    height: 130px;
+  }
+  .header .hamberg-menu-icon{
+    display: none;
+  }
+  @media screen and (max-width: 1200px) {
+    .header .hamberg-menu-icon{
+      display: block;
+    }
+  }
+  input[type='checkbox']{
+    display: none;
+  }
+  input[type='checkbox']:not(:checked)+ul {
+    display: none;
+  }
+  
+  
+  .header .logo-holder{
+    width: 50%;
+    padding: 0px;
+    margin: auto auto;
+
+  }
+  .header .logo-holder img{
+    height: 76px;
+    margin-top: 10px;
+    margin-bottom: 0px;
+  }
+  @media screen and (max-width: 425px) {
+    .header .logo-holder img{
+      height: 50px;
+      margin-top: 30px;
+      }
+  }
+  .header ul.top-menu{
+    margin: 40px 0px 0px 0px;
+    padding: 20px;
+    list-style-type: none;
+    float: right;
+    font-size: 1.1rem;
+  }
+  .header ul.top-menu li{
+    float: left;
+    padding-right: 2rem;
+
+  }
+  .header ul li a{
+    cursor: pointer;
+    color: white;
+    /* color: rgb(34, 10, 47); */
+    text-decoration: none;
+  }
+  .header ul li a:hover{
+    text-decoration: underline;
+    color: rgb(34, 10, 47);
+    color: white;
+
+  }
+  .header ul li a.active{
+    text-decoration: underline;
+    color: rgb(34, 10, 47);
+    color: white;
+
+  }
+  
+  @media screen and (min-width: 1199px) {
+    .header{
+      height: 130px;
+    }
+    .header .hamberg-menu{
+      position: absolute;
+      top: 75px;
+      left: 50%;
+      width: 760px;
+      transform: translate(-50%, -50%);
+    }
+    .header ul.top-menu{
+      margin: auto auto;
+      margin-top: 75px;
+      padding: 0px;
+      display: block !important;
+    }
+  }
+  
+  @media screen and (max-width: 1200px) {
+    .header ul{
+      position: absolute;
+      top: 40px;
+      left: 15px;
+      background-color: rgb(224, 224, 224);
+      width: 300px;
+      border-radius: 10px;
+      border: 2px solid black;
+    }
+  
+    .header ul.top-menu li{
+      padding: 0px 0px 0px 0px;
+      clear: both;
+      width: 100%;
+      text-align: left;
+    }
+    .header ul.top-menu li a{
+      color: rgb(34, 10, 47);
+      font-size: 1.5rem;
+      width: 100%;
+      display: block;
+    }
+  
+    
+  }
+  
+  
+  
+  
+  .header .shopping-cart{
+    max-height: 4rem;
+    padding: 0px;
+    margin: 10px;
+    float: right;
+  }
+  
+  .hamberg-menu-icon{
+    position: absolute;
+    top: 0px;
+    margin: 20px;
+  }
+  .hamberg-menu-icon div {
+    width: 35px;
+    height: 5px;
+    background-color: rgb(255, 255, 255);
+    /* background-color: rgb(34, 10, 47); */
+
+    margin: 10px 0;
+  }
+  
+  

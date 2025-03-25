@@ -1,0 +1,471 @@
+h1 {
+  padding-top: 30px;
+  padding-bottom: 0px;
+}
+h2 {
+  color: #d7d7d7;
+  margin: 40px 0px 0px 0px;
+  color: black;
+  font-size: 20px;
+  text-align: center;
+  padding: 10px;
+  border-radius: 0px;
+  border-top: 2px solid gray;
+}
+
+@media screen and (max-width: 800px) {
+  h1 {
+    font-size: 30px;
+  }
+  h2 {
+    font-size: 18px;
+  }
+}
+
+.game-icons {
+  width: 40%;
+  border: 1px solid black;
+  border-radius: 10px;
+  float: left;
+  padding: 20px 10px 20px 10px;
+  box-shadow: 1px 1px 1px #341c36;
+}
+
+.cart-frame {
+  width: 90%;
+  height: 90%;
+}
+
+.section {
+  width: 100%;
+  background-color: lavender;
+  padding-top: 85px;
+}
+
+.background-coming-soon {
+  background-image: url(images/20241007_215716.jpg);
+}
+
+.section {
+  display: inline-block;
+}
+
+/* Shop section */
+.shop .pod {
+  float: left;
+  height: 300px;
+  width: 33%;
+}
+@media screen and (max-width: 1077px) {
+  .shop .pod {
+    width: 50%;
+  }
+}
+@media screen and (max-width: 702px) {
+  .shop .pod {
+    width: 100%;
+  }
+}
+
+.shop .pod .imgHolder {
+  width: 78%;
+  height: 193px;
+  border: 1px solid #341c36;
+  box-shadow: 1px 1px 1px #341c36;
+  border-radius: 3%;
+  margin: auto auto;
+  overflow: hidden;
+}
+.shop .pod .imgHolder img {
+  object-fit: cover;
+  width: 110%;
+  height: auto;
+  background-color: white;
+}
+
+.shop .pod .imgBar {
+  border-radius: 10px;
+  border: 1px solid #341c36;
+  width: 85%;
+  margin: auto auto;
+  padding-top: 8px;
+  padding-bottom: 4px;
+  background-color: hsla(220, 50%, 34%, 0.95);
+  margin-top: -10px;
+  box-shadow: 1px 1px 1px #341c36;
+}
+.shop .pod .imgBar h3 {
+  color: #fff;
+  font-size: 15px;
+  line-height: 1.4em;
+  padding: 0px;
+  margin-top: 10px;
+}
+.shop .pod .imgBar p {
+  color: #fff;
+  display: inline;
+  font-size: 14px;
+  padding: 0px;
+  margin: 0px;
+}
+
+.shop .pod p {
+  margin-top: 5px;
+  font-size: 1rem;
+  color: #000038;
+}
+
+@media screen and (max-width: 600px) {
+  .shop .pod .imgBar h3 {
+    font-size: 12px;
+  }
+  .shop .pod .imgBar p {
+    font-size: 10px;
+  }
+}
+
+/* commingsoon section */
+.commingsoon .pod {
+  width: 100%;
+  float: left;
+  text-align: left;
+  height: 300px;
+  margin: 10px 10px 10px 10px;
+}
+.commingsoon .pod img {
+  height: 200px;
+  border: 1px solid black;
+  border-radius: 10%;
+  margin: 10px;
+  float: left;
+}
+.commingsoon .pod p {
+  margin: 10px;
+}
+
+/* POP UP  */
+.grayFuzz {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  background-color: #140613;
+  opacity: 70%;
+  z-index: 1;
+}
+.popup {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  overflow: none;
+  z-index: 2;
+}
+.popup .popContent {
+  margin: 0;
+  position: relative;
+  top: 30px;
+  left: 50%;
+  transform: translate(-50%, 0%);
+  width: 90%;
+  height: auto;
+  max-width: 900px;
+  border-radius: 0px;
+  background-color: #ede8ef;
+  z-index: 100;
+  overflow: hidden;
+  overflow-y: scroll;
+  padding: 40px;
+  max-height: 100%;
+  /* box-shadow: 0px 0px 20px rgb(202, 202, 202); */
+}
+.popup #popupMiniBar {
+  width: 100%;
+  float: left;
+}
+.popup .popupMiniThumb {
+  width: 85px;
+  height: 85px;
+  margin: 0px 5px 0px 5px;
+  box-shadow: 0px 0px 2px black;
+  border-radius: 5%;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #fafafa;
+}
+
+.popup .popContent .lg-40col {
+  text-align: center;
+  float: left;
+  padding: 0px;
+  margin: 0px;
+  width: 50%;
+}
+.popup .popContent .lg-60col {
+  float: left;
+  text-align: left;
+  padding: 0px;
+  margin: 0px;
+  width: 49%;
+}
+
+.popup h3 {
+  margin: 0px 0px 20px 0px;
+  font-size: 1.8rem;
+  width: 100%;
+  padding-left: 0px;
+}
+@media screen and (max-width: 768px) {
+  .popup h3 {
+    font-size: 1rem;
+  }
+}
+.popup #popupImage {
+  padding: 0px;
+  margin: 0px;
+  width: 100%;
+  height: 369px;
+  margin-bottom: 10px;
+  float: left;
+  border: 1px solid 9b899a;
+
+  box-shadow: 2px 2px 6px black;
+  border-radius: 15px;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-color: #fafafa;
+}
+.popup p {
+  text-align: left;
+  margin-right: 5%;
+  font-size: 13px;
+  padding: 20px 0px 20px 30px;
+}
+.popup p #popupPrice {
+  width: 100%;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.downloadLink {
+  padding: 0px 0px 10px 30px;
+  text-align: left;
+  height: 40px;
+  clear: both;
+}
+.downloadLink img {
+  width: 30px;
+  float: left;
+  padding: 4px;
+  background-color: #ede8ef;
+}
+.downloadLink a,
+a:visited {
+  padding-left: 10px;
+  text-decoration: none;
+  color: black;
+  line-height: 40px;
+}
+
+.shop-bar {
+  width: 100%;
+  text-align: center;
+}
+
+.shopifyIcon {
+  border: 1px solid black;
+  border-radius: 10px;
+  padding: 0px 10px 10px 10px;
+  text-decoration: none;
+  display: inline-block;
+  width: 80%;
+  max-width: 250px;
+  background-color: #fafafa;
+  box-shadow: 2px 2px 0px #330530;
+  margin: 0px;
+}
+.shopifyIcon .shopifyLogo {
+  width: 40px;
+  float: left;
+  padding-left: 10px;
+  padding-top: 15px;
+}
+.shopifyIcon .shopifyText {
+  font-size: 16px;
+  padding-top: 0px;
+  padding-left: 24%;
+  padding-bottom: 0px;
+}
+#popupPrice {
+  margin: 0px;
+  padding: 0px;
+  text-align: center;
+  color: black;
+  margin-top: 10px;
+}
+@media screen and (max-width: 700px) {
+  .popup .popContent {
+    width: 90%;
+    height: 85vh;
+    top: 0%;
+    transform: translate(-50%, 0%);
+    padding: 30px 0px;
+    overflow-y: scroll;
+    margin: 30px 0px 0px 0px;
+  }
+  .popup .popContent .lg-40col,
+  .popup .popContent .lg-60col {
+    width: 100%;
+  }
+  .popup .popupMiniThumb {
+    width: 80px;
+  }
+}
+#closeBar {
+  width: 100%;
+  max-width: 520px;
+  position: fixed;
+  top: 15px;
+  left: 50%;
+  offset-position: 50%;
+  z-index: 100;
+}
+@media screen and (max-width: 1000px) {
+  #closeBar {
+    width: 100%;
+    max-width: 100%;
+    top: 15px;
+    left: 0px;
+    offset-position: 50%;
+  }
+}
+
+#closeButton {
+  z-index: 100;
+  margin: 0;
+  float: right;
+  cursor: pointer;
+  font-size: 30px;
+  background-color: white;
+  border: 1px solid black;
+  border-radius: 10px;
+  padding: 0px 20px 0px 20px;
+}
+
+.popup #popupImage {
+  width: 90%;
+  float: none;
+  display: inline;
+  min-height: 255px;
+}
+.downloadLink {
+  width: 100%;
+  padding-bottom: 30px;
+}
+
+.shopifyIcon {
+  width: 80%;
+  max-width: 250px;
+}
+
+.downloads .pod {
+  margin: 3%;
+  width: 44%;
+  float: left;
+}
+@media screen and (max-width: 650px) {
+  .downloads .pod {
+    margin: 5%;
+    width: 90%;
+  }
+}
+
+.aboutus {
+  width: 100%;
+  height: auto;
+}
+.aboutus .box {
+  float: left;
+  width: 49%;
+  padding: 0px;
+  text-align: left;
+}
+.aboutus .box.evenSpace{
+  width: 40%;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  gap: 10px;
+  align-content: space-evenly;
+  padding: 4%;
+}
+
+.aboutus .aboutImage {
+  width: 100%;
+  float: left;
+}
+.aboutus .aboutImage-small {
+  width: 100%;
+  float: left;
+  border-radius: 10%;
+  margin: 0px;
+}
+
+@media screen and (max-width: 650px) {
+  .aboutus {
+    text-align: center;
+    margin: auto auto;
+  }
+  .aboutus .box {
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+  }
+  .aboutus .box.evenSpace{
+    width: 90%;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 10px;
+    align-content: space-evenly;
+    padding: 5%;
+  }
+  
+  .aboutus .box p {
+    padding-left: 10px;
+  }
+  .aboutus .aboutImage {
+    width: 100%;
+    margin: auto auto;
+  }
+}
+
+#kits .pod {
+  height: 460px;
+}
+
+#kits .pod .imgHolder {
+  height: 365px;
+}
+
+#christmas #xmass {
+  width: 99%;
+  height: 800px;
+  border-radius: 10px;
+  margin: 0px;
+  padding: 0px;
+  
+}
+
+
+@media screen and (max-width: 650px) {
+  #christmas #xmass {
+    height: 75vw;
+  }
+  #christmas .xmassFullScreen{
+    font-size: 14px;
+  }
+}

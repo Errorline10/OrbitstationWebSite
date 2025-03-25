@@ -1,0 +1,411 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="description"
+      content="Orbitstation games is a wooden toy manufacturer"
+    />
+    <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no"/>
+
+    <title>
+      OrbitStation LLC. Game Company - Proud to be a Quality USA Based Toy
+      Manufacturer.
+    </title>
+    <script type="text/javascript" src="scripts/javascript.js"></script>
+    <script type="text/javascript" src="scripts/Shopify.js"></script>
+    <link rel="stylesheet" href="menu.css" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="header">
+      <div class="logo-holder">
+        <img
+          alt="OrbitStation Logo"
+          class="logo"
+          src="images/logo/orbitstation-logo-white-1px.svg"
+        />
+      </div>
+
+      <div class="hamberg-menu">
+        <label for="menu" tabindex="0">
+          <div class="hamberg-menu-icon">
+            <div></div>
+            <div></div>
+            <div></div>
+          </div>
+        </label>
+        <input id="menu" type="checkbox" />
+
+        <ul class="top-menu" onclick="closeMenu()">
+          <li><a href="#assembled">Ready to Play</a></li>
+          <li><a href="#kits">Kits</a></li>
+          <li><a href="#downloads">Downloads</a></li>
+          <li><a href="#christmas">Christmas</a></li>
+          <li><a href="#aboutus">About</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <!--                            ________________       -->
+    <!-- __________________________/   Assembled    \_____ -->
+    <div class="section shop" id="assembled">
+      <h2>Pre-Assembled Ready to Play</h2>
+
+      <!-- Shut The Box : assembled -->
+      <div class="pod" onclick="openPopUp('stb-built')">
+        <div class="imgHolder">
+          <img
+            alt="shut the box image 2"
+            src="/images/Assembled/shut-the-box/stb-2.jpg"
+          />
+        </div>
+        <div class="imgBar">
+          <h3>Shut-the-Box</h3>
+          <p>Assembled - $16.00 US</p>
+        </div>
+      </div>
+
+      <!-- Shut The Box : assembled -->
+      <div class="pod" onclick="openPopUp('sitn-built')">
+        <div class="imgHolder">
+          <img
+            alt="shut the box"
+            src="/images/Assembled/ships-in-the-night/sitn-1.jpg"
+          />
+        </div>
+        <div class="imgBar">
+          <h3>Yo-Ho Ships in the Night (2x)</h3>
+          <p>Assembled - $30.00 US ($15 each)</p>
+        </div>
+      </div>
+
+      <!-- Crevasse : assembled -->
+      <div class="pod" onclick="openPopUp('crevasse')">
+        <div class="imgHolder">
+          <img
+            alt="Crevasse"
+            src="images/Assembled/crevasse/20250228_122716.jpg"
+          />
+        </div>
+        <div class="imgBar">
+          <h3>Crevasse - A Climb to the Top</h3>
+          <p>Assembled - $16.00 US</p>
+        </div>
+      </div>
+
+      <!-- fundensity : assembled -->
+      <div class="pod" onclick="openPopUp('fun')">
+        <div class="imgHolder">
+          <img
+            alt="Fundensity-Four"
+            src="images/fundensity/20250208_165918.jpg"
+          />
+        </div>
+        <div class="imgBar">
+          <h3>Fundensity-Four© <br />Shut the box Edition</h3>
+          <p>Assembled - $80.00 US</p>
+        </div>
+      </div>
+
+      <!-- Fort-or-Fodder : cards -->
+      <div class="pod" onclick="openPopUp('fof-cards')">
+        <div class="imgHolder">
+          <img
+            alt="Fort or Fodder"
+            src="/images/Cards/FOF-Cards/20241017_221544.jpg"
+          />
+        </div>
+        <div class="imgBar">
+          <h3>Fort-or-Fodder Card Game</h3>
+          <p>52 Card Deck - $12.00 US</p>
+        </div>
+      </div>
+
+      <!-- Mine-ore-Mine : cards -->
+      <div class="pod" onclick="openPopUp('mom-cards')">
+        <div class="imgHolder">
+          <img
+            alt="Mine ore Mine"
+            src="/images/Cards/mom-cards/20250209_183914.jpg"
+          />
+        </div>
+        <div class="imgBar">
+          <h3>Mine-ore-Mine Card Game</h3>
+          <p>52 Card Deck - $12.00 US</p>
+        </div>
+      </div>
+    </div>
+
+    <!--                            ___________       -->
+    <!-- __________________________/   Kits    \_____ -->
+
+    <div class="section shop" id="kits">
+      <h2>Kits (Assemble Your Own Fun)</h2>
+
+      <!-- Shut The Box : kit -->
+      <div class="pod" onclick="openPopUp('stb-kit')">
+        <div class="imgHolder">
+          <img
+            alt="Shut the box"
+            src="/images/Assembled/shut-the-box/stb-6.jpg"
+          />
+        </div>
+        <div class="imgBar">
+          <h3>Shut-the-Box</h3>
+          <p>Kit - $16.00 US</p>
+        </div>
+      </div>
+
+      <!-- Fort or Fodder : kit -->
+      <div class="pod" onclick="openPopUp('fof-kit')">
+        <div class="imgHolder">
+          <img
+            alt="Fort or Fodder"
+            src="/images/Kits/fort-or-fodder/20250209_175653.jpg"
+          />
+        </div>
+        <div class="imgBar">
+          <h3>Fort-or-Fodder</h3>
+          <p>Kit - $16.00 US</p>
+        </div>
+      </div>
+
+      <!-- Mine-ore-Mine : kit -->
+      <div class="pod" onclick="openPopUp('mom-kit')">
+        <div class="imgHolder">
+          <img
+            alt="Mine ore Mine"
+            src="/images/Kits/mine-ore-mine/20250209_174643.jpg"
+          />
+        </div>
+        <div class="imgBar">
+          <h3>Mine-ore-Mine</h3>
+          <p>Kit - $16.00 US</p>
+        </div>
+      </div>
+    </div>
+
+    <!--                            ________________       -->
+    <!-- __________________________/   Downloads    \_____ -->
+
+    <div class="section downloads" id="downloads">
+      <h2>Downloads</h2>
+
+      <div class="pod">
+        <img
+          alt="Playing Cards"
+          src="/images/icons/playingcards.gif"
+          class="game-icons"
+        />
+        <h3>Playing Cards</h3>
+        <hr />
+        <a
+          href="instructions/build/playing-cards-build-instructions.pdf"
+          download
+          >Build Instructions</a
+        ><br />
+      </div>
+
+      <div class="pod">
+        <img
+          alt="shut the box"
+          src="/images/icons/stb.gif"
+          class="game-icons"
+        />
+        <h3>Shut the Box</h3>
+        <hr />
+        <a
+          href="instructions/play/shut the box-Game-instructions-small-cards-fold-4x.pdf"
+          download
+          >Play Instructions</a
+        ><br />
+        <a href="instructions/build/stb-build-instructions.pdf" download
+          >Build Instructions</a
+        ><br />
+      </div>
+
+      <div class="pod">
+        <img
+          alt="Mine ore mine"
+          src="/images/icons/mom.gif"
+          class="game-icons"
+        />
+        <h3>Mine-ore-Mine</h3>
+        <hr />
+        <a href="instructions/play/mom-play-instructions.pdf" download
+          >Play Instructions</a
+        ><br />
+        <a href="instructions/build/mom-build-instructions.pdf" download
+          >Build Instructions</a
+        ><br />
+      </div>
+
+      <div class="pod">
+        <img
+          alt="Fort or Fodder"
+          src="/images/icons/fof.gif"
+          class="game-icons"
+        />
+        <h3>Fort-Or-Fodder</h3>
+        <hr />
+        <a href="instructions/play/FoF-Game-instructions.pdf" download
+          >Play Instructions</a
+        ><br />
+        <a href="instructions/build/fof-build-instructions.pdf" download
+          >Build Instructions</a
+        ><br />
+      </div>
+
+      <div class="pod">
+        <img
+          alt="Ships in the Night"
+          src="/images/icons/yoho.gif"
+          class="game-icons"
+        />
+        <h3>YoHo-Ships in the Night</h3>
+        <hr />
+        <a href="instructions/play/sitn-big-instructions.pdf" download
+          >Display Size -Play Instructions</a
+        ><br />
+        <a
+          href="instructions/play/Yo-Ho-Game-instructions-small-cards-fold-4x.pdf"
+          download
+          >play Instructions</a
+        ><br />
+      </div>
+
+      <div class="pod">
+        <img
+          alt="Crevasse"
+          src="/images/icons/crevasse.gif"
+          class="game-icons"
+        />
+        <h3>Crevasse - A Climb to the top</h3>
+        <hr />
+        <a
+          href="instructions/play/Crevasse-Game-instructions-small-cards-fold-4x.pdf"
+          download
+          >Play Instructions</a
+        ><br />
+      </div>
+    </div>
+
+    <!--                            _____________       -->
+    <!-- __________________________/  Christmas  \_____ -->
+
+    <div class="section chritsmas" id="christmas">
+      <h2><a href="/Christmas_Countdown/index.html" target="_blank" class="xmassFullScreen">[FullScreen]</a></h2>
+      <iframe src="Christmas_Countdown/index.html" id="xmass"></iframe>
+    </div>
+
+    <!--                            __________       -->
+    <!-- __________________________/   About  \_____ -->
+
+    <div class="section aboutus" id="aboutus">
+      <h2>About</h2>
+      <h1>Orbitstation - Hand Crafted Wood Games</h1>
+      <div class="box">
+        <img alt="Made in USA Logo" src="images/usa.gif" class="aboutImage" />
+      </div>
+
+      <div class="box evenSpace">
+        <img
+          alt="orbitstation workshop"
+          src="/images/workshop/20250208_110653.jpg"
+          class="aboutImage-small"
+        />
+        <img
+          alt="orbitstation workshop"
+          src="/images/workshop/20250208_110912.jpg"
+          class="aboutImage-small"
+        />
+        <img
+          alt="orbitstation workshop"
+          src="/images/Kits/shut-the-box/20250208_093341.jpg"
+          class="aboutImage-small"
+        />
+      </div>
+
+      <div class="box">
+        <p>
+          I am so happy to be a toy maker. I create and design all of my games
+          from scratch. To accomplish this, I have had to learn Illustrator,
+          LightBurn, and Xtool Software. Over the past year I have invested over
+          8k to tool up my Massachusetts based workshop.
+        </p>
+        <br />
+        <p>
+          The final transformation, including the packaging, instructions,
+          artwork, design, laser cutting, and actual assembly, are done right
+          here in the USA.
+        </p>
+        <br />
+        <p>
+          However, parts of the XTool laser are from China, the raw wood is
+          Baltic Birch, and the raw cards are printed in Hong Kong. So, While I
+          can’t say “Made in the USA”, I am proud to be able to say “Designed,
+          Laser Cut and Assembled in the USA.
+        </p>
+        <br />
+        <p>
+          I am now proud to have my own registered trademark Orbitstation llc.
+          under this trade mark I am creating card games, hand-crafted wooden
+          toys, and fun print & play titles.
+        </p>
+        <br />
+        <p>
+          I have protected my designs/source files and artwork with Trademarks
+          and all the appropriate Copywrites © and LLC paper work. So please,
+          kindly think twice before trying to copy my stuff.
+        </p>
+        <br />
+        <br />
+        <a>Orbitstation LLC ®</a>
+        <p>Phone: (774) 253-4218</p>
+        <p>email: orbitstationtoys@gmail.com</p>
+      </div>
+    </div>
+
+    <!--                            _____________       -->
+    <!-- __________________________/   Pop Up    \_____ -->
+    <div class="grayFuzz hide" id="grayFuzz" onclick="closePopUp()"></div>
+    
+    <div id="closeBar" class="hide">
+      <div id="closeButton" onclick="closePopUp()">X</div>
+    </div>
+    
+    <div class="popup hide" id="popup">
+      <div class="popContent">
+        <h3 id="popupTitle">POP UP TITLE</h3>
+
+        <div class="lg-40col">
+          <img alt="large product" id="popupImage" src="images/blank.gif" />
+
+          <div id="popupMiniBar">
+            <!-- <img class="popupMiniThumb" src = "images/FOF-Cards/20241017_221522.jpg" /> -->
+          </div>
+        </div>
+
+        <div class="lg-60col">
+          <div class="shop-bar">
+            <a id="shopifyAdd" class="shopifyIcon" target="_blank" href="">
+              <img class="shopifyLogo" src="images/shopify.svg" />
+              <!-- <p class="shopifyText">Purchase on Shopify</p> -->
+              <div
+                class="shopifyText"
+                id="product-component-1741049410962"
+              ></div>
+              <p id="popupPrice">$ xx.xx US</p>
+            </a>
+          </div>
+
+          <p id="popupP1"></p>
+          <p id="popupP2"></p>
+          <p id="popupP3"></p>
+          <div id="downloadlinks"></div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
