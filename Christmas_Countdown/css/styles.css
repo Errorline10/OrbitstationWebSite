@@ -1,0 +1,124 @@
+@font-face {
+  font-family: "edwardianscriptitc";
+  src: url("../fonts/edwardianscriptitc.ttf");
+}
+#background {
+  height: 100%;
+  left: 0px;
+  position: fixed;
+  top: 0px;
+  width: 100%;
+  z-index: -1;
+}
+.stretch {
+  height: 100%;
+  min-height: 1000px;
+  min-width: 1000px;
+  width: 100%;
+}
+.count-box * {
+  margin: 0px;
+  padding: 0px;
+  text-align: center;
+}
+html {
+  font-size: 2.5vw;
+}
+body {
+  color: rgb(206, 206, 206);
+  font-family: edwardianscriptitc, Cursive;
+}
+
+.snow-switch{
+  font-family: "Courier New", Courier, monospace;
+  font-size: .5rem;
+  border: 1px solid black;
+  background-color: black;;
+  height: .5rem;
+  width: 4rem;
+  position: absolute;
+  top: 1rem;
+  right: 3rem;
+}
+.snow-switch .switch-frame{
+  border: 1px solid white;
+  height: .5rem;
+  width: 2rem;
+  float: right;
+}
+.snow-switch .switch-frame .dot{
+  width: .4rem;
+  height: .4rem;
+  border-radius: 50%;
+  border: 1px solid red;
+}
+.snow-switch .switch-frame.on .dot{
+float: right;
+}
+
+h1 {
+  color: #e5e4ef;
+  font-size: 3rem;
+  margin: 0rem;
+  padding: 30px 0 10px 0;
+  text-align: center;
+  text-shadow: 2px 2px 5px #000000;
+  width: 100%;
+}
+.description {
+  background-color: rgb(62, 62, 62);
+  border: 1px solid rgb(187, 187, 187);
+  border-radius: 0px 0px 10px 10px;
+  box-shadow: 10px 10px 40px rgb(0, 0, 0);
+  color: black;
+  font-family: "Courier New", Courier, monospace;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: -10px;
+  max-width: fit-content;
+  min-width: 300px;
+  padding: 0vh;
+  width: 80vw;
+}
+.description {
+  height: 4vh;
+  overflow-y: hidden;
+}
+.description.open {
+  height: auto;
+  overflow-y: visible;
+}
+.description .bar {
+  color: white;
+  cursor: pointer;
+  font-size: 0.4rem;
+  margin: 1.6vh 1vw 1vh 0.5vw;
+  padding: 0px;
+  text-align: right;
+}
+.description p {
+  color: white;
+  font-size: 0.6rem;
+  padding: 0.4rem 2rem 3rem 2rem;
+}
+.description p a {
+  color: white;
+  cursor: pointer;
+  text-decoration: none;
+}
+.description p a.fileIcon {
+  background-color: rgb(107, 107, 107);
+  border: 1px solid white;
+  border-radius: 10px;
+  color: white;
+  cursor: pointer;
+  float: left;
+  font-size: 0.4rem;
+  margin: 1rem 0.5rem 0rem 0rem;
+  padding: 0.2rem 0.4rem 0.3rem 0.2rem;
+  text-decoration: none;
+}
+a.fileIcon::before {
+  content: "\1F5CE";
+  margin: 0rem 0.2rem 0rem 0.1rem;
+}
