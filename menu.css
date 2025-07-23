@@ -43,7 +43,7 @@
     width: 100%;
     font-size: 2rem;
     padding: 0px;
-    background-color: hsla(286, 50%, 34%, 0.887);
+    background-color: hsla(0, 0%, 100%, 0.887);
     /* background-color: #bb7dee; */
     background-image: url('/images/BalticBirch.webp');
     z-index:0;
@@ -96,22 +96,11 @@
   }
   .header ul li a{
     cursor: pointer;
-    color: white;
+    color: rgb(0, 0, 0);
     /* color: rgb(34, 10, 47); */
     text-decoration: none;
   }
-  .header ul li a:hover{
-    text-decoration: underline;
-    color: rgb(34, 10, 47);
-    color: white;
-
-  }
-  .header ul li a.active{
-    text-decoration: underline;
-    color: rgb(34, 10, 47);
-    color: white;
-
-  }
+ 
   
   @media screen and (min-width: 1199px) {
     .header{
@@ -177,8 +166,8 @@
   .hamberg-menu-icon div {
     width: 35px;
     height: 5px;
-    background-color: rgb(255, 255, 255);
-    /* background-color: rgb(34, 10, 47); */
+    /* background-color: rgb(255, 255, 255); */
+    background-color: rgb(34, 10, 47);
 
     margin: 10px 0;
   }
