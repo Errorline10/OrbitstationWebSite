@@ -27,7 +27,7 @@
     font-family: openDyslexic;
   
     /* background-color: #000038; */
-    background-color: lavender;
+    background-color: #f5ecde;
     text-align: center;
     /* background-image: url("images/Symbols.gif"); */
     background-size: 20%;
@@ -45,6 +45,7 @@
     padding: 0px;
     background-color: hsla(286, 50%, 34%, 0.887);
     /* background-color: #bb7dee; */
+    background-image: url('/images/BalticBirch.webp');
     z-index:0;
     height: 130px;
   }

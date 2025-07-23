@@ -38,7 +38,7 @@ h2 {
 
 .section {
   width: 100%;
-  background-color: lavender;
+  background-color: #f5ecde;
   padding-top: 85px;
 }
 
@@ -173,7 +173,7 @@ h2 {
   height: auto;
   max-width: 900px;
   border-radius: 0px;
-  background-color: #ede8ef;
+  background-color: #ffffffc7;
   z-index: 100;
   overflow: hidden;
   overflow-y: scroll;
