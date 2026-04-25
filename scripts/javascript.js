@@ -26,7 +26,7 @@ function closePopUp() {
 let popupMeta = {
   "stb-built": {
     title: "Shut the Box - Assembled",
-    price: "Assembled - $16.00 US",
+    price: "Assembled - $18.00 US",
     itemNumber: "8462965309607",
     img: "/images/Assembled/shut-the-box/stb-1.jpg",
     p1: "Shut the box (also called ACKPOT, batten down the hatches or trick-track) is a game of dice for one or more players, commonly played in a group of two to four for stakes. Traditionally, a counting box is used with tiles numbered 1 to 9 where each can be covered with a hinged or sliding mechanism, though the game can be played with only a pair of dice, pen, and paper. -Wikipedia",
@@ -73,7 +73,7 @@ let popupMeta = {
 
   "mom-kit": {
     title: "Mine-ore-Mine - Wood Kit",
-    price: "Kit w/Cards - $16.00 US",
+    price: "Kit w/Cards - $18.00 US",
     itemNumber: "8475091894439",
     img: "/images/Kits/mine-ore-mine/20250209_174643.jpg",
     p1: "Shut the box (also called ACKPOT, batten down the hatches or trick-track) is a game of dice for one or more players, commonly played in a group of two to four for stakes. Traditionally, a counting box is used with tiles numbered 1 to 9 where each can be covered with a hinged or sliding mechanism, though the game can be played with only a pair of dice, pen, and paper. -Wikipedia",
@@ -120,7 +120,7 @@ let popupMeta = {
 
   "sitn-built": {
     title: "Yo-Ho Ships in the Night© (2x)",
-    price: "Assembled - $30.00 US",
+    price: "Assembled - $36.00 US",
     itemNumber: "8462965375143",
     img: "/images/Assembled/ships-in-the-night/sitn-1.jpg",
     p1: "Faster and more fun than the classic ship game you are thinking of. (Yo-Ho Ships-in-the-Night) focuses on one ship. You must evade other players’ cannon balls while also outsmarting your enemy by moving, shooting and listening. Each shot at the enemy also gives away some information about your own location.",
@@ -171,7 +171,7 @@ let popupMeta = {
   },
   "fof-kit": {
     title: "Fort-Or-Fodder© Kit",
-    price: "Kit w/Cards - $16.00 US",
+    price: "Kit w/Cards - $18.00 US",
     itemNumber: "8475088945319",
     img: "/images/Kits/fort-or-fodder/20250209_175653.jpg",
     p1: "A more sophisticated take on the classic game of war. Defend your forts by expending troops. Attack as a group of cards but defend with only a single card. This simple game will play out in endless strategic combinations. A few minutes to learn, and a lifetime to master.",
@@ -211,7 +211,7 @@ let popupMeta = {
 
   "fun": {
     title: "Fundensity-Four© Shut the Box Edition",
-    price: "Assembled - $80.00 US",
+    price: "Assembled - $72.00 US",
     itemNumber: "8462965735591",
     img: "/images/fundensity/20250208_170340.jpg",
     p1: 'Four great games in one awesome display cabinet. Shut-the-box is the first game, you select the other three. Card games/ wood games you choose.',
@@ -273,7 +273,7 @@ let popupMeta = {
   },
   "crevasse": {
     title: "Crevasse - A Climb to the Top©",
-    price: "Assembled - $16.00",
+    price: "Assembled - $18.00",
     itemNumber: '8473836224679',
     img: "images/Assembled/crevasse/20250228_122716.jpg",
     p1: 'Can you escape the Crevasse? Khumbu Icefall on Mount Everest has turned deadly. You and your buddy have fallen to the bottom of a deadly crevasse. The high altitude is limiting your energy. No-one knows where you are. It has turned into a race to the top, as your energy is used up, and your climbing skills are put to the test. Survival lies in your hands alone. Climb for your life in this thrilling one player skill game.',
